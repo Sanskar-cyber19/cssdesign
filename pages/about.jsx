@@ -2,9 +2,9 @@ import Link from 'next/link'
 import Image from 'next/image'
 import react, {useState} from 'react'
 import Router from 'next/router'
-import Instgram from '@/styles/icon/fontawesome/svgs/brands/instagram-square.svg'
-import Github from '@/styles/icon/fontawesome/svgs/brands/github-square.svg'
-import Linkedin from '@/styles/icon/fontawesome/svgs/brands/linkedin.svg'
+import { FaGithubSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
 import style from '@/styles/pages/About.module.css'
 
 export default function about() {
@@ -75,59 +75,15 @@ export default function about() {
         <h5 class="card-title">Sanskar Bandgar</h5>
         <p class="card-text">He is beginner Web developer with HTML,CSS,<br/>Javascript,Bootstrap,Next.JS and Recat.JS. </p>
 		<div class="logo d-flex align-items-center justify-content-md-center">
-			<Link href="/"><Image src={Instgram} width={30} height={30}/></Link>
-			<Link href="/"><Image src={Github} width={30} height={30}/></Link>
-			<Link href="/"><Image src={Linkedin} width={30} height={30}/></Link>
+			<Link href="/"><FaGithubSquare size="2em" /></Link>
+				<Link href="/"><FaLinkedin size="2em" /></Link>
+				<Link href="/"><FaInstagramSquare size="2em" /></Link>
 		</div>
       </div>
     </div>
   </div>
 </div>
 </div>
-
-	  <div class="container px-4 py-5" id="featured-3">
-    <h2 class="pb-2 border-bottom">Frequency asked question</h2>
- <div class="bd-example col-md-12">
-        <div class="accordion" id="accordionExample">
-          <div class="accordion-item">
-            <h4 class="accordion-header" id="headingOne">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                This website is free or paid?
-              </button>
-            </h4>
-            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-			  This website is fully <strong>free to use.</strong>No need to purchase 
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h4 class="accordion-header" id="headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Accordion Item #2
-              </button>
-            </h4>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h4 class="accordion-header" id="headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Accordion Item #3
-              </button>
-            </h4>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-              </div>
-            </div>
-          </div>
-        </div>
-        </div>
-		</div>
     </main>
     </>
   )
