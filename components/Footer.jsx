@@ -14,9 +14,9 @@ function Footer() {
       <div class="container">
         <div class="row gy-3">
           <div class="col-lg-5 col-md-12 footer-info text-md-start">
-		<a href="index.html" class="logo d-flex align-items-center">
+		<div class="logo d-flex align-items-center">
               <h2 class="pb-2">CSS TOOLS</h2>
-            </a>
+            </div>
             <p> This Website Useful All Bigners for learn and use the css3 With designing best website.</p>
 				<Link href="/"><FaGithubSquare size="2em" /></Link>
 				<Link href="/"><FaLinkedin size="2em" /></Link>
