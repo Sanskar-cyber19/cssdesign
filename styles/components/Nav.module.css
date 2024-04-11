@@ -32,6 +32,7 @@
   align-items:center;
   display: flex;
   gap:5px;
+  text-decoration:none;
 }
 
 .menu i{
@@ -39,7 +40,7 @@
   border-radius: 30px;
 }
 
-@media (max-width:800px){
+@media (max-width:680px){
   .main{
     left:15px;
   }
