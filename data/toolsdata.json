@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Gradient Background",
+    "img": "/tools/BG.jpg",
+    "link": "/tools/BG"
+  },
+  {
+    "id": 2,
+    "name": "Box Shadow",
+    "img": "/tools/BS.jpg",
+    "link": "/tools/BS"
+  },
+  {
+    "id": 3,
+    "name": "Color Picker",
+    "img": "/tools/CP.jpg",
+    "link": "/tools/CP"
+  },
+  {
+    "id": 4,
+    "name": "Shape Generator",
+    "img": "/tools/Shape.jpg",
+    "link": "/tools/Shape"
+  },
+  {
+    "id": 5,
+    "name": "Shape Radius",
+    "img": "/tools/Shape2.jpg",
+    "link": "/tools/Shape2"
+  },
+  {
+    "id": 6,
+    "name": "3D Rotate",
+    "img": "/tools/3D.jpg",
+    "link": "/tools/ThreeD"
+  }
+]

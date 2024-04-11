@@ -1,0 +1,45 @@
+.work{
+	width:90%;
+	padding:1rem;
+	display:grid;
+	grid-template-columns: repeat(2, minmax(50%, auto));
+	align-items:center;
+	text-align:center;
+	margin-bottom:2rem;
+}
+
+.container{
+	width:90%;
+	padding:2rem;
+}
+
+.contorls{
+	background-color:#0000ff;
+	width:90%;
+	padding:2rem;
+	margin-top:0px;
+}
+
+.code{
+	background-color:#0f0f0f;
+	padding:1rem 1.5rem;
+	border-radius:20px;
+}
+
+@media(max-width:480px){
+	.work{
+		grid-template-columns: 1fr;
+		padding:0rem;
+	}
+	
+	.container{
+		width:100%%;
+		padding:0rem;
+	}
+	
+	.controls{
+		width:100%;
+		margin-top:4rem;
+		padding:0rem;
+	}
+}

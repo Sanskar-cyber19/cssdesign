@@ -1,0 +1,49 @@
+.main {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 2.5vh;
+  width: 90%;
+  position: fixed;
+  top: 10px;
+  left:60px;
+  border-radius: 10px;
+  backdrop-filter: blur(25px);
+  z-index: 1;
+  padding: 0.5rem 4rem;
+  box-shadow: var(--box-shadow);
+  display: flex;
+  text-align: center;
+}
+
+.logo{
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.content{
+  display: flex;
+  position: absolute;
+  right: 280px;
+}
+
+.menu{
+  margin-left: 15%;
+  padding: 0.5rem;
+  align-items:center;
+  display: flex;
+  gap:5px;
+}
+
+.menu i{
+  margin-right: 10px;
+  border-radius: 30px;
+}
+
+@media (max-width:800px){
+  .main{
+    left:15px;
+  }
+	.content{
+		display:none;
+	}
+}

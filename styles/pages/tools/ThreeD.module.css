@@ -1,0 +1,31 @@
+.header{
+    font-size: 7.5vh;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.work{
+    display: flex;
+    align-items: center;}
+
+.work div{margin-right:50px;}
+
+.cube{
+    padding: 3rem;
+}
+
+.controls{margin-left: 50px;}
+
+.controls label{
+    font-weight: 700;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.code{
+    background-color: var(--codebg);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+

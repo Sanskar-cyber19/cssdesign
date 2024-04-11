@@ -1,0 +1,18 @@
+.header{
+    font-size: 7.5vh;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.work{
+    display: flex;
+    align-items: center;
+}
+
+.controls{margin-left: 50px;}
+
+.code{
+    background-color: var(--codebg);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
